@@ -27,7 +27,7 @@ public class config {
     @Bean
     @InboundChannelAdapter(value = Processor.OUTPUT, poller = @Poller(fixedDelay = "3000", maxMessagesPerPoll = "1"))
     public MessageSource<String> timerMessageSource() {
-        return () -> MessageBuilder.withPayload("短消息--" + new Date()).build();
+        return () -> MessageBuilder.withPayload("短消息-----" + new Date()).build();
         //todo:next
     }
 }
