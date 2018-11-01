@@ -12,7 +12,7 @@ public class Order {
     private String orderNum;
 
     private String type;
-
+    //num
     private int num;
 
     private Date createAt;
