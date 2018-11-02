@@ -15,5 +15,5 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
-
+    //todo:mvn clean install -Dmaven.test.skip=true
 }
